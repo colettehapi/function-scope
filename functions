@@ -10,13 +10,23 @@
   
   let a = 81;
   let b = 27;
+  let r = 8;
   
   function sqrt(){
    return( Math.sqrt(a));
   }
   
+  function circumference(){
+    return(2*Math.PI* r**2);
+  }
+  
+  function cbrt(){
+    return(b**(1/3))
+  }
+  
   console.log(sqrt());
-console.log(Math.cbrt(b));
+console.log(cbrt());
+console.log(circumference());
   
   </script>
   </body>
