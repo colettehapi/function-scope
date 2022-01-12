@@ -10,20 +10,10 @@
   
   let a = 25;
   let b = 81;
-  function squareRoot(a){
   
-    return( Math.sqrt(a));
   
-  }
-  
-  function cubeRoot(b){
-  
-    return( Math.cbrt(b));
-  
-  }
-  
-  console.log(squareRoot(a));
-console.log(cubeRoot(b));
+  console.log(Math.sqrt(a));
+console.log(Math.cbrt(b));
   
   
   </body>
