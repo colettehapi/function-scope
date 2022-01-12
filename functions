@@ -8,9 +8,12 @@
   <body>
   <script>
   
-  let a = 25;
-  let b = 81;
+  let a = 81;
+  let b = 27;
   
+  function sqrt(a){
+   return( Math.sqrt(a));
+  }
   
   console.log(Math.sqrt(a));
 console.log(Math.cbrt(b));
