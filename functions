@@ -17,7 +17,11 @@
   }
   
   function circumference(){
-    return(Math.PI* r**2);
+    return(2 * Math.PI * r);
+  }
+  
+  function area(){
+    return(Math.PI * r**2);
   }
   
   function cbrt(){
@@ -27,6 +31,7 @@
   console.log(sqrt());
 console.log(cbrt());
 console.log(circumference());
+console.log(area());
   
   </script>
   </body>
