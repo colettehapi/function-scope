@@ -15,7 +15,7 @@
    return( Math.sqrt(a));
   }
   
-  console.log(Math.sqrt(a));
+  console.log(sqrt(a));
 console.log(Math.cbrt(b));
   
   </script>
