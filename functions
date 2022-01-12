@@ -8,15 +8,20 @@
   <body>
   <script>
   const num = 9;
+  const number = 27;
   function squareRoot(num){
     return Math.sqrt(num);  
-    console.log(num);
+  
   }
   
-  function cubeRoot(num){
-    return java.lang.Math.cbrt(num);
-    console.log(num);
+  console.log(num);
+  
+  function cubeRoot(number){
+    return java.lang.Math.cbrt(number);
+    
   }
+  
+  console.log(number);
   
   </script>
   </body>
