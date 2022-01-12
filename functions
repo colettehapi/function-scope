@@ -17,7 +17,7 @@
   }
   
   function circumference(){
-    return(2*Math.PI* r**2);
+    return(Math.PI* r**2);
   }
   
   function cbrt(){
