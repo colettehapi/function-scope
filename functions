@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>"my take on functions"</title>
+    <meta charset="UTF-8">  
+  </head>
+  
+  <body>
+  const num = 9;
+  function squareRoot(num){
+    return Math.sqrt(num);  
+    console.log(num);
+  }
+  
+  function cubeRoot(num){
+    return java.lang.Math.cbrt(num);
+    console.log(num);
+  }
+  
+  
+  </body>
+
+
+
+</html>
