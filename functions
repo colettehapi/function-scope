@@ -8,20 +8,22 @@
   <body>
   <script>
   
-  function squareRoot(num){
+  let a = 25;
+  let b = 81;
+  function squareRoot(a){
   
-    return( Math.sqrt(num));
-  
-  }
-  
-  function cubeRoot(num){
-  
-    return( Math.cbrt(num));
+    return( Math.sqrt(a));
   
   }
   
-  console.log(squareRoot(25));
-console.log(cubeRoot(91));
+  function cubeRoot(b){
+  
+    return( Math.cbrt(b));
+  
+  }
+  
+  console.log(squareRoot(a));
+console.log(cubeRoot(b));
   
   
   </body>
