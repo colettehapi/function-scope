@@ -6,6 +6,7 @@
   </head>
   
   <body>
+  <script>
   const num = 9;
   function squareRoot(num){
     return Math.sqrt(num);  
@@ -17,7 +18,7 @@
     console.log(num);
   }
   
-  
+  </script>
   </body>
 
 
